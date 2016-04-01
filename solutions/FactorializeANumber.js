@@ -1,4 +1,4 @@
-function factorialize(num) {
+function factorialize(num) {  // https://www.freecodecamp.com/challenges/factorialize-a-number
 
   if( num === 0){ return 1; }
 
