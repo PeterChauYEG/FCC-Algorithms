@@ -45,4 +45,4 @@ function getIndexToIns(arr, num) {
 // just use 
 // getIndexToIns([40, 60], 50);
 // when you test it on Free Code Camp
-console.log(getIndexToIns([2, 5, 10], 15));
+console.log(getIndexToIns([40, 60], 50));
