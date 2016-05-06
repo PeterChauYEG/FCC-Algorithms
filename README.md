@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is an algorithm guide for use at the April 2016 Coffee-and-Code in Edmonton, Alberta. We will work through these together.
+This is an algorithm guide for use at Coffee-and-Code meetups in Edmonton, Alberta. We will work through these together.
 
 ## Getting Started the easy way
 
@@ -16,13 +16,17 @@ This is an algorithm guide for use at the April 2016 Coffee-and-Code in Edmonton
 3. Run a challenge to make sure it works with `node wheredoibelong.js`. You should get `50`.
 4. Open `wheredoibelong.js` and lets get started.
 
-## [Where do i belong](https://www.freecodecamp.com/challenges/where-do-i-belong)
+=====
 
-### What do we want to do?
+## Algorithms
+
+### [Where do i belong](https://www.freecodecamp.com/challenges/where-do-i-belong)
+
+#### What do we want to do?
 
 **Return** the **lowest index** at which a value (**second argument**) should be **inserted** into an array (**first argument**) once it has been **sorted**.
 
-### Lets break that down
+#### Lets break that down
 
 1. **Sort** the first argument (_array_) from lowest to highest
 2. **Compare** the second argument with each element of the sorted array:
@@ -31,3 +35,16 @@ This is an algorithm guide for use at the April 2016 Coffee-and-Code in Edmonton
 4. **Return** the index (remember to turn it into a number)
  
 Run the solution with `node wheredoibelong.js`
+
+=====
+
+## Pair Programming - May 7
+
+### [Slasher Flick][Slasher Flick]
+### [Pig Latin][Pig Latin]
+### [Exact Change][Exact Change]
+
+
+[Slasher Flick]: https://www.freecodecamp.com/challenges/slasher-flick
+[Pig Latin]: https://www.freecodecamp.com/challenges/pig-latin
+[Exact Change]: https://www.freecodecamp.com/challenges/exact-change

@@ -11,16 +11,16 @@ console.log( findLongestWord("The quick brown fox jumped over the lazy dog") );
 
 //Solution Two - 'Create an array for each word and loop through using a counter to find the highest letter count' - (David Harrison)
 
-function findLongestWord(str) {
-  var wordArray = str.split(" ");
-  var highestCount = 0;
+// function findLongestWord(str) {
+//   var wordArray = str.split(" ");
+//   var highestCount = 0;
   
-  for (var i = 0; i < wordArray.length; i++) {
-      if (wordArray[i].length > highestCount) {
-          highestCount = wordArray[i].length;
-      }
-  }
-  return highestCount;
- }
+//   for (var i = 0; i < wordArray.length; i++) {
+//       if (wordArray[i].length > highestCount) {
+//           highestCount = wordArray[i].length;
+//       }
+//   }
+//   return highestCount;
+// }
 
 findLongestWord("The quick brown fox jumped over the lazy dog");
