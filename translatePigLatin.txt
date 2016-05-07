@@ -1,0 +1,38 @@
+
+function translatePigLatin(str) {
+  
+  var arr = str.split('');
+ 
+      var arrOfVowelsLocation =
+      [arr.indexOf('a'),
+      arr.indexOf('e'),
+      arr.indexOf('i'),
+      arr.indexOf('o'),
+      arr.indexOf('u')];
+     
+      var loc = 2000000;
+      for (i = 0; i < arrOfVowelsLocation.length; i++) { 
+      if (arrOfVowelsLocation[i] !=-1)
+       {
+          if (arrOfVowelsLocation[i] < loc)
+              loc = arrOfVowelsLocation[i]; 
+       }
+      }
+       console.log(loc); 
+      if (loc !=  2000000) 
+      {
+        if (loc === 0) 
+          {
+            return str +"way";
+          }
+        else
+          {
+            var firstConstChar = str.substr(0,loc);
+            return   str.substr(loc,str.length) + firstConstChar + "ay";
+          }
+      }
+        
+     
+}
+
+translatePigLatin("consonant");
