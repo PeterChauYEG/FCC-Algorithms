@@ -14,6 +14,9 @@
 // because the function consists of only a return statement
 //
 
+//
+// Note, the jshint comment below must be included when using this solution on FCC in order for the () => {} function syntax to work 
+
 /*jshint esversion: 6 */
 function translatePigLatin(str) {
 
